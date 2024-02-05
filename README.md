@@ -83,11 +83,13 @@ Deploy a pytorch tenserflow model using Amazon Sagemaker.
 | [Naivebayes](https://github.com/QsingularityAi/Machine-Learning-with-Apache-Spark-Cassandra-Using-Docker/blob/main/jupyter/Naivebayes.ipynb) | HTTPStatus Exception: 401 |
 
 </details>
+
 | File                                                                                                                   | Summary                   |
 | ---                                                                                                                    | ---                       |
 | [Random Forest](https://github.com/QsingularityAi/Machine-Learning-with-Apache-Spark-Cassandra-Using-Docker/blob/main/jupyter/Random%20Forest.ipynb) | HTTPStatus Exception: 401 |
 
 </details>
+
 | File                                                                                                                   | Summary                   |
 | ---                                                                                                                    | ---                       |
 | [kmeans](https://github.com/QsingularityAi/Machine-Learning-with-Apache-Spark-Cassandra-Using-Docker/blob/main/jupyter/kmeans.ipynb) | HTTPStatus Exception: 401 |
