@@ -133,35 +133,33 @@ docker-compose up -d
 ### 🤖 Running Machine Learning with Apache Spark & Cassandra Using Docker
 
 ```sh
-jupyter nbconvert --execute notebook.ipynb
+jupyter/
+    ├── Collaborative Filtering.ipynb 
+    └── FP-Growth.ipynb
+    └── Naivebayes.ipynb
+    └── Random Forest.ipynb
+    └── kmeans.ipynb
 ```
 
 ### 🧪 Tests
 ```sh
-pytest notebook_test.py
+notebook_test.py
 ```
 
 ---
 
 
 ## 🛣 Roadmap
-The hands on project on Using TensorFlow with Amazon Sagemaker is divided into following tasks:
+The hands on project on Using Machine Learning with Docker + Cassandra + Spark is divided into following tasks:
 
-> - [X] `ℹ️  Task 1: Introduction and Notebook Instance: Create a Notebook instance in Sagemaker.`
-> - [X] `ℹ️  Task 2: Task 1: Download the Data:
-Upload a starter notebook to the Sagemaker Notebook instance,.`
-> - [X] `ℹ️  Task 3: Task 1: Prepare the Dataset:Create Training and Validation sets.`
-> - [X] `ℹ️  Task 4: Create the Model: Create a custom training script.`
-> - [X] `ℹ️  Task 5: Data Generators: In the custom training script, write a function to create data generators for training and validation sets.`
-> - [X] `ℹ️  Task 6: Arguments: Write argument parser to parse the arguments sent by Sagemaker to the custom script.`
+> - [X] `ℹ️  Task 1: Create Docker file.`
+> - [X] `ℹ️  Task 2: Task 1: Create Cassendara and Spark Setup in Docker :`
+> - [X] `ℹ️  Task 3: Task 1: Prepare the Dataset:Helper function to have nicer formatting of Spark DataFrames .`
+> - [X] `ℹ️  Task 4: Creating Tables and Loading Tables: Create a custom training script.`
+> - [X] `ℹ️  Task 5: Create a spark session that is connected to Cassandra. From there load each table into a Spark Dataframe and.`
+> - [X] `ℹ️  Task 6: Split dataset into training and testing set .`
 > - [X] `ℹ️  Task 7: Finalizing the Training Script: Create a model instance, Instantiate training and validation generators,Train the model,Export the trained model,`
-> - [X] `ℹ️  Task 8:  Upload Dataset to S3: The dataset prepared in Task 3 is uploaded to S3.`
-> - [X] `ℹ️  Task 9: pytorch Estimator: Create a pytorch anf tensorflow Estimator, Specify the entry point, execution role and other necessary arguments,
-Using the fit method on the Estimator to launch the training job,`
-> - [X] `ℹ️  Task 10: Deploy the Model: Deploy the trained model artifact using the Estimator.`
-> - [X] `ℹ️  Task 11: Inference and Deleting Endpoint: Write a function to preprocess input and get predictions from the deployed model,
-Deleting the deployed model endpoint.`
-
+> - [X] `ℹ️  Task 8:  Evaluate the model by computing the RMSE on the test data.`
 ---
 
 ## 🤝 Contributing
